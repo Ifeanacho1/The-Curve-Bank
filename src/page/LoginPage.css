@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.LoginMain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    font-family: sans-serif;
+
+    .LoginMainDiv{
+        width: 30%;
+        height: 80vh;
+        border-radius: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .LoginMainImg{
+            width: 20%;
+        }
+
+        .LoginMainDivH1{
+            font-size: 20px;
+            color: blue;
+        }
+
+        .LoginMainDivInput{
+            width: 80%;
+            height: 7vh;
+            border-radius: 10px;
+            border: solid;
+            border-width: 1px;
+        }
+
+        .LoginMainDivBtn{
+            width: 30%;
+            height: 5vh;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .LoginMainDivH2{
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+
+        .LoginMainDivBtn2{
+            width: 30%;
+            height: 5vh;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+}
